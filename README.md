@@ -12,7 +12,7 @@
 
 
 > [!NOTE]
-> En se basant sur les fichiers de base fournis, nous devons créer un site présentant des destination de voyage dans le monde.
+> En se basant sur les fichiers de base fournis (navbar seulement), nous devons créer un site présentant des destination de voyage dans le monde.
 >
 > La demande du client est de faire en sorte que chaque page de destination est une couleur (ou en tout cas une bannière) différente 
 >
