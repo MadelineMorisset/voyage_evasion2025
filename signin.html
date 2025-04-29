@@ -18,122 +18,123 @@
 
   <body>
     <header>
-        <a href="index.html">
-          <div class="logo">
-            <img src="./img/home/Logo V-E.png">
-          </div>
-        </a>
-        <input type="checkbox" id="burger-toggle" />
-        <label for="burger-toggle" class="burger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+      <a href="index.html">
+        <div class="logo">
+          <img src="./img/home/Logo V-E.png">
+        </div>
+      </a>
+      <input type="checkbox" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
     
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li>Destinations
-              <ul>
-                <li>Europe
-                  <ul>
-                    <li>France</li>
-                    <li>Espagne</li>
-                    <li>Italie</li>
-                  </ul>
-                </li>
-                <li>Asie
-                  <ul>
-                    <li>Japon</li>
-                    <li>Thaïlande</li>
-                    <li>Vietnam</li>
-                  </ul>
-                </li>
-                <li>Amériques
-                  <ul>
-                    <li>États-Unis</li>
-                    <li>Brésil</li>
-                    <li>Argentine</li>
-                  </ul>
-                </li>
-                <li>Afrique
-                  <ul>
-                    <li>Maroc</li>
-                    <li>Afrique du Sud</li>
-                    <li>Égypte</li>
-                  </ul>
-                </li>
-                <li>Îles
-                  <ul>
-                    <li>Tahiti</li>
-                    <li>Maldives</li>
-                    <li>Réunion</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="spotlight.html">À la une</a></li>
-            <li>Contact</li>
-            <li>Qui sommes-nous ?</li>
-            <li><a href="signin.html">Connexion</a></li>
-            <li>Inscription</li>
-          </ul>
-        </nav>
-      </header>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li>Destinations
+            <ul>
+              <li>Europe
+                <ul>
+                  <li>France</li>
+                  <li>Espagne</li>
+                  <li>Italie</li>
+                </ul>
+              </li>
+              <li>Asie
+                <ul>
+                  <li>Japon</li>
+                  <li>Thaïlande</li>
+                  <li>Vietnam</li>
+                </ul>
+              </li>
+              <li>Amériques
+                <ul>
+                  <li>États-Unis</li>
+                  <li>Brésil</li>
+                  <li>Argentine</li>
+                </ul>
+              </li>
+              <li>Afrique
+                <ul>
+                  <li>Maroc</li>
+                  <li>Afrique du Sud</li>
+                  <li>Égypte</li>
+                </ul>
+              </li>
+              <li>Îles
+                <ul>
+                  <li>Tahiti</li>
+                  <li>Maldives</li>
+                  <li>Réunion</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="spotlight.html">À la une</a></li>
+          <li>Contact</li>
+          <li>Qui sommes-nous ?</li>
+          <li><a href="signin.html">Connexion</a></li>
+          <li><a href="signup.html">Inscription</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <main class="flex main">
-        <div class="title flex">
-            <h1>Bon retour !!</h1>
-            <span>Ravi de vous retrouvez parmi nous </span>
-            <div class="Mouettes">
-              <img src="./img/signin/mouette.gif" alt="">
-              <img src="./img/signin/mouette.gif" alt="">
-            </div>
-            <div class="Yacht">
-              <!-- <img src="./img/signin/mouette.gif" alt=""> -->
-              <img src="./img/signin/yacht.png" alt="">
-            </div>
+    <main class="flex main">
+      <div class="title flex">
+        <h1>Bon retour !!</h1>
+        <span>Ravi de vous retrouvez parmi nous </span>
+        <div class="Mouettes">
+          <img src="./img/signin/mouette.gif" alt="">
+          <img src="./img/signin/mouette.gif" alt="">
         </div>
+        <div class="Yacht">
+          <!-- <img src="./img/signin/mouette.gif" alt=""> -->
+          <img src="./img/signin/yacht.png" alt="">
+        </div>
+      </div>
 
-        <div class="allForm flex">
-          <div class="titleForm flex">
-            <h2>Connectez-vous</h2>
+      <div class="allForm flex">
+        <div class="titleForm flex">
+          <h2>Connectez-vous</h2>
+        </div>
+        
+        <form action="" method="get" class="flex">
+          <div class="MyCheckboxs flex">
+            <div >
+              <label for="particular">Particulier: </label>
+              <input type="checkbox" name="particular" id="particular" />
+            </div>
+            <div >
+              <label for="company">Entreprise: </label>
+              <input type="checkbox" name="company" id="company"  />
+            </div>
           </div>
-          <form action="" method="get" class="flex">
-              <div class="MyCheckboxs flex">
-                <div >
-                  <label for="particular">Particulier: </label>
-                  <input type="checkbox" name="particular" id="particular" />
-                </div>
-                <div >
-                  <label for="company">Entreprise: </label>
-                  <input type="checkbox" name="company" id="company"  />
-                </div>
-              </div>
-              <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required class="form2" placeholder="obligatoire !!" />
-              </div>
-              <div>
-                <label for="message">Mot de passe:</label>
-                <input type="password" required class="form2" placeholder="obligatoire !!">
-              </div>
-              <div>
-                <label for="message">Confirmer mot de passe:</label>
-                <input type="password" required class="form2" placeholder="obligatoire !!">
-              </div>
-              <div>
-                <span> Mot de passe oublié ?</span><a href="#"> Cliquez ici !</a>
-              </div>
-              <div class="button">
-                <input type="submit" value="Se connecter" />
-              </div>
-            </form>
-        </div>
-      </main>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required class="form2" placeholder="obligatoire !!" />
+          </div>
+          <div>
+            <label for="message">Mot de passe:</label>
+            <input type="password" required class="form2" placeholder="obligatoire !!">
+          </div>
+          <div>
+            <label for="message">Confirmer mot de passe:</label>
+            <input type="password" required class="form2" placeholder="obligatoire !!">
+          </div>
+          <div>
+            <span> Mot de passe oublié ?</span><a href="#"> Cliquez ici !</a>
+          </div>
+          <div class="button">
+            <input type="submit" value="Se connecter" />
+          </div>
+        </form>
+      </div>
+    </main>
 
-      <footer class="flex">
-        <p>© Réalisé par BADJI DIEME Cherif</p>
-      </footer>
-</body>
+    <footer class="flex">
+      <p>© Réalisé par BADJI DIEME Cherif</p>
+    </footer>
+  </body>
 </html>
