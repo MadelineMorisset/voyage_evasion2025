@@ -12,24 +12,24 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/importation.css">
-    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/importation.css">
+    <link rel="stylesheet" href="/css/signup.css">
   </head>
+
   <body>
     <header>
       <a href="index.html">
         <div class="logo">
-          <img src="./img/home/Logo V-E.png">
+          <img src="/img/home/Logo V-E.png">
         </div>
       </a>
       <input type="checkbox" id="burger-toggle" />
-      <label for="burger-toggle" class="burger-menu">
+      <label for="burger-toggle" class="burger-menu text">
         <span></span>
         <span></span>
         <span></span>
       </label>
-
 
       <nav class="menu">
         <ul>
@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li><a href="spotlight.html">À la une</a></li>
-          <li>Contact</li>
+          <li><a href="contact.html">Contact</a></li>
           <li>Qui sommes-nous ?</li>
           <li><a href="signin.html">Connexion</a></li>
           <li><a href="signup.html">Inscription</a></li>
@@ -84,7 +84,7 @@
 
     <main>
         <div class="box-titre">
-          <h1>
+          <h1 class="title">
               inscription
           </h1>
         </div>
@@ -93,103 +93,103 @@
           <form>
             <fieldset> <!-- html avancée pour un formulaire , sert a cree des groupe de champ des "fieldset" et de leurs ajouté une "legend" -->
           
-              <legend>Vos coordonnées:</legend>
+              <legend class="title">Vos coordonnées:</legend>
 
               <ul>
                 <li>
-                  <label for="nom">Nom:</label>
-                  <input class="input-coordonnees" type="text" id="nom" name="nom" placeholder="Entrez votre nom" required aria-required="true" />
+                  <label for="nom" class="text">Nom:</label>
+                  <input class="input-coordonnees" type="text" id="nom" name="nom" placeholder="Entrez votre nom" required aria-required="true" class="text" />
                 </li>
                 <li>
-                  <label for="prenom">Prénom:</label>
-                  <input class="input-coordonnees" type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required aria-required="true" />
+                  <label for="prenom" class="text">Prénom:</label>
+                  <input class="input-coordonnees" type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required aria-required="true" class="text" />
                 </li>
                 <li>
-                  <label for="email">Email:</label>
-                  <input class="input-coordonnees" type="email" id="email" name="email" placeholder="Entrez votre email" required aria-required="true" />
+                  <label for="email" class="text">Email:</label>
+                  <input class="input-coordonnees" type="email" id="email" name="email" placeholder="Entrez votre email" required aria-required="true" class="text" />
                 </li>
                 <li>
-                  <label for="tel">Téléphone:</label>
-                  <input class="input-coordonnees" type="tel" id="tel" name="tel" placeholder="Entrez votre téléphone" required aria-required="true" />
+                  <label for="tel" class="text">Téléphone:</label>
+                  <input class="input-coordonnees" type="tel" id="tel" name="tel" placeholder="Entrez votre téléphone" required aria-required="true" class="text" />
                 </li>
               </ul>
             </fieldset>
 
             <fieldset>
-              <legend>Informations de voyage:</legend>
+              <legend class="title">Informations de voyage:</legend>
               <ul>
                 <li>
-                  <label for="nationalite">Nationalité :</label>
-                  <input class="input-info-voyage" type="text" id="nationalite" name="nationalite" placeholder="Entrez votre pays de naissance" required aria-required="true">
+                  <label for="nationalite" class="text">Nationalité :</label>
+                  <input class="input-info-voyage" type="text" id="nationalite" name="nationalite" placeholder="Entrez votre pays de naissance" required aria-required="true" class="text">
                 </li>
                 <li>
-                  <label for="pays_residence">Pays de résidence :</label>
-                  <input  class="input-info-voyage" type="text" id="pays_residence" name="pays_residence" placeholder="Pays dans lequel vous vivez actuelement"  aria-required="true">
+                  <label for="pays_residence" class="text">Pays de résidence :</label>
+                  <input  class="input-info-voyage" type="text" id="pays_residence" name="pays_residence" placeholder="Pays dans lequel vous vivez actuelement"  aria-required="true" class="text">
                 </li>
                 <li>
-                  <label for="passeport">Avez-vous un passeport valide ?</label>
+                  <label for="passeport" class="text">Avez-vous un passeport valide ?</label>
                   <input type="radio" id="passeport_oui" name="passeport" value="oui" aria-required="false">
-                  <label for="passeport_oui">Oui</label>
+                  <label for="passeport_oui" class="text">Oui</label>
                   <input type="radio" id="passeport_non" name="passeport" value="non">
-                  <label for="passeport_non">Non</label>
+                  <label for="passeport_non" class="text">Non</label>
                 </li>
                 <li>
-                  <label for="type_voyage">Type de voyage préféré :</label>
-                  <select id="type_voyage" name="type_voyage"aria-required="false">
-                  <option value="">--Choisir--</option>
-                  <option value="aventure">Aventure</option>
-                  <option value="detente">Détente</option>
-                  <option value="culture">Culture</option>
-                  <option value="nature">Nature</option>
-                  <option value="luxueux">Luxueux</option>
+                  <label for="type_voyage" class="text">Type de voyage préféré :</label>
+                  <select id="type_voyage" name="type_voyage"aria-required="false" class="text">
+                  <option value="" class="text">--Choisir--</option>
+                  <option value="aventure" class="text">Aventure</option>
+                  <option value="detente" class="text">Détente</option>
+                  <option value="culture" class="text">Culture</option>
+                  <option value="nature" class="text">Nature</option>
+                  <option value="luxueux" class="text">Luxueux</option>
                 </select>
                 </li>
                 <li>
-                  <label for="destinations">Destinations favorites :</label>
+                  <label for="destinations" class="text">Destinations favorites :</label>
                   <textarea  class="input-info-voyage" id="destinations" name="destinations" rows="3" cols="40"
-                  placeholder="Indiquez vos pays ou villes préférés..." aria-required="false"></textarea>
+                  placeholder="Indiquez vos pays ou villes préférés..." aria-required="false" class="text"></textarea>
                 </li>
                 <li>
-                  <label for="budget">Budget moyen par voyage (€) :</label>
-                  <input class="input-info-voyage" type="number" id="budget" name="budget" min="0" step="100" placeholder="Quels est votre budget" aria-required="false">
+                  <label for="budget" class="text">Budget moyen par voyage (€) :</label>
+                  <input class="input-info-voyage" type="number" id="budget" name="budget" min="0" step="100" placeholder="Quels est votre budget" aria-required="false" class="text">
                 </li>
               </ul>         
             </fieldset>
 
             <fieldset class="statut-field">
-              <legend>Votre statut:</legend>
+              <legend class="title">Votre statut:</legend>
               
-              <label for="particulier">Particulier:</label>
+              <label for="particulier" class="text">Particulier:</label>
               <input type="radio" id="particulier" name="statut" value="particulier" required aria-required="true" /> 
               
-              <label for="professionnel">Professionnel:</label>
+              <label for="professionnel" class="text">Professionnel:</label>
               <input type="radio" id="professionnel" name="statut" value="professionnel" required aria-required="true" />
             </fieldset>
 
             <fieldset>
-              <legend>Informations de compte :</legend>
+              <legend class="title">Informations de compte :</legend>
               <ul>
                 <li>
-                  <label for="username">Nom d'utilisateur :</label>
-                  <input class="info-compte" type="text" id="username" name="username" placeholder="Choisissez un identifiant" required aria-required="true">
+                  <label for="username" class="text">Nom d'utilisateur :</label>
+                  <input class="info-compte" type="text" id="username" name="username" placeholder="Choisissez un identifiant" required aria-required="true" class="text">
                 </li>
                 <li>
                   <label for="password">Mot de passe :</label>
-                  <input class="info-compte" class="input-info-compte" type="password" id="password" name="password" placeholder="Créez un mot de passe" required aria-required="true">
+                  <input class="info-compte" class="input-info-compte" type="password" id="password" name="password" placeholder="Créez un mot de passe" required aria-required="true" class="text">
                 </li>
                 <li>
                   <label for="confirm_password">Confirmer le mot de passe :</label>
-                  <input class="info-compte" class="input-info-compte" type="password" id="confirm_password" name="confirm_password" placeholder="Répétez le mot de passe" required aria-required="true">
+                  <input class="info-compte" class="input-info-compte" type="password" id="confirm_password" name="confirm_password" placeholder="Répétez le mot de passe" required aria-required="true" class="text">
                 </li>
                 <li>
                   <input type="checkbox" id="accept_cgu" name="accept_cgu" required aria-required="true">
-                  <label for="accept_cgu">J'accepte les <a class="lien-condition" href="">Conditions Générales d'Utilisation</a></label>
+                  <label for="accept_cgu" class="text">J'accepte les <a class="lien-condition" href="">Conditions Générales d'Utilisation</a></label>
                 </li>
               </ul>
             </fieldset>
 
             <div class="bouton-envoyer">
-              <input class="text-envoyer" type="submit" value="Envoyer">
+              <input class="text-envoyer" type="submit" value="Envoyer" class="text">
             </div>  
           </form>
         </section>

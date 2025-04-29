@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.title {
+font-family: "Fraunces", serif;
+}
+.text {
+font-family: "Roboto Condensed", sans-serif;
+}
+p,label,legend,h1{
+    color: white;
+}
+body{
+    background-image: url("/img/signup/airport-2373727_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    margin: 100px auto 50px ;
+    border-radius: 20px;
+    padding: 40px;
+}
+.box-titre {
+    width: fit-content; /*ajuster la largeur de la box au texte du h1 */
+    margin: 0 auto; 
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(16, 74, 198);
+    border-radius: 20px;
+}
+h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;   
+}
+form{  
+    width: 60%;
+}
+fieldset{
+    margin: 10px;
+    border: solid rgb(212, 248, 10) 2px;
+    line-height: 300%;
+    border-radius: 6px; 
+}
+legend { 
+    border: solid rgb(16, 74, 198);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    line-height: 1;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+     font-weight: bold;
+}
+ul{
+    margin: 20px 40px 20px 40px;
+}
+li{
+    line-height: 30px;
+}
+.input-coordonnees,.input-info-voyage,.info-compte{
+    width: 100%;  
+}
+
+.statut-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bouton-envoyer,.text-envoyer{
+    text-align: center; 
+    text-transform: uppercase;
+}
+.lien-condition{
+    color: yellow;
+}
+footer{
+    background-color: #0178F8;
+    text-align: center;
+}
