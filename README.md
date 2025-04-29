@@ -26,8 +26,8 @@
   - Franck Rossignol : Destinations
   - Madeline Ricateau : À la une
   - Moufid Rhazi : Contact
-  - MAgali Bernardin Bichet : Qui sommes-nous ?
-  - Chérif Badji Dieme: Connexion
+  - Magali Bernardin Bichet : Qui sommes-nous ?
+  - Shérif Badji Dieme: Connexion
   - Alexandre Anselin : Inscription
 ```
 
