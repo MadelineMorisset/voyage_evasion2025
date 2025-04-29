@@ -8,7 +8,7 @@
 - **<ins>Documents fournis</ins> :**
   - *Menu deroulant pivotant flap flop.html* => renommé en nom_page.html
   - *importation.css* => premier fichier css
-  - *importation2.css* => second fichier css à combiner avec le premier
+  - *importation2.css* => second fichier css qui peut être combiné avec le premier
 
 
 > [!NOTE]
