@@ -1,166 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explorez notre sélection de destinations touristiques à travers le monde : inspirations de voyage, conseils pratiques et idées d'escapades inoubliables.">
-  <title>Site Tourisme - Univers du Voyage</title>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/importation.css">
-  <link rel="stylesheet" href="css/a_la_une.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorez notre sélection de destinations touristiques à travers le monde : inspirations de voyage, conseils pratiques et idées d'escapades inoubliables.">
+    <title>Site Tourisme - Univers du Voyage</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/importation.css">
+    <link rel="stylesheet" href="css/home.css">
+  </head>
 
-  <header>
 
-    <input type="checkbox" id="burger-toggle" />
-    <label for="burger-toggle" class="burger-menu">
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="logo">
+          <img src="img/home/Logo V-E.png">
+        </div>
+      </a>
+      <input type="checkbox" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-menu">
         <span></span>
         <span></span>
         <span></span>
-    </label>
+      </label>
+  
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li>
+            Destinations
+            <ul>
+              <li>
+                Europe
+                <ul>
+                  <li>France</li>
+                  <li>Espagne</li>
+                  <li>Italie</li>
+                </ul>
+              </li>
+              <li>
+                Asie
+                <ul>
+                  <li>Japon</li>
+                  <li>Thaïlande</li>
+                  <li>Vietnam</li>
+                </ul>
+              </li>
+              <li>
+                Amériques
+                <ul>
+                  <li>États-Unis</li>
+                  <li>Brésil</li>
+                  <li>Argentine</li>
+                </ul>
+              </li>
+              <li>
+                Afrique
+                <ul>
+                  <li>Maroc</li>
+                  <li>Afrique du Sud</li>
+                  <li>Égypte</li>
+                </ul>
+              </li>
+              <li>
+                Îles
+                <ul>
+                  <li>Tahiti</li>
+                  <li>Maldives</li>
+                  <li>Réunion</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="spotlight.html">À la une</a></li>
+          <li>Contact</li>
+          <li>Qui sommes-nous ?</li>
+          <li><a href="signin.html">Connexion</a></li>
+          <li>Inscription</li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="all">
+      <h1>Voyage-Evasion</h1>
 
-    <nav class="menu">
-      <ul>
-        <li>Accueil</li>
-        <li>Destinations
-          <ul>
-            <li>Europe
-              <ul>
-                <li>France</li>
-                <li>Espagne</li>
-                <li>Italie</li>
-              </ul>
-            </li>
-            <li>Asie
-              <ul>
-                <li>Japon</li>
-                <li>Thaïlande</li>
-                <li>Vietnam</li>
-              </ul>
-            </li>
-            <li>Amériques
-              <ul>
-                <li>États-Unis</li>
-                <li>Brésil</li>
-                <li>Argentine</li>
-              </ul>
-            </li>
-            <li>Afrique
-              <ul>
-                <li>Maroc</li>
-                <li>Afrique du Sud</li>
-                <li>Égypte</li>
-              </ul>
-            </li>
-            <li>Îles
-              <ul>
-                <li>Tahiti</li>
-                <li>Maldives</li>
-                <li>Réunion</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>À la une</li>
-        <li>Contact</li>
-        <li>Qui sommes-nous ?</li>
-        <li>Connexion</li>
-        <li>Inscription</li>
-      </ul>
-    </nav>
-  </header>
+      <div class="bandeau">
+        <div class="slides">
+          <img src="img/home/Vacances.jpg">
+          <img src="img/home/Voyages.jpg">
+          <img src="img/home/PAsie.jpg">
+        </div>
+      </div>
 
-  <main>
-    <div>
-      <img class="imagescover" src="/img/a_la_une/banner.png" alt="Assemblage de trois photos représentant des destinations de voyage : à gauche, une personne avec un sac à dos traverse un pont suspendu en bois dans une vallée de montagne au lever du soleil ; au centre, la proue d’un bateau en bois navigue sur un lac entouré de hautes montagnes rocheuses ; à droite, une femme en chapeau profite d'une piscine à débordement avec vue sur une plage tropicale bordée d’arbres.">
-      <div class="banner-main-title">
-        <h1 class="title main-title">À la une</h1>
-      </div>  
-    </div>
+      <div class="txt-img">
+        <div class="ville">
+          <label for="destination">Départ de :</label>
+          <select name="voyage" id="destination">
+            <option value="">Paris</option>
+            <option value="Rome">Rome</option>
+            <option value="Málaga">Málaga</option>
+            <option value="New-York">New-York</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Casablanca">Casablanca</option>
+            <option value="Nelspruit">Nelspruit</option>
+            <option value="Le Caire">Le Caire</option>
+            <option value="Tahiti">Tahiti</option>
+            <option value="Malé">Malé</option>
+            <option value="Sainte-Marie">Sainte-Marie</option>
+          </select>
+        </div>
+      </div>
+      <div class="txt-presen">
+        <div class="box">
+          <div class="img">
+            <img src="img/home/Europe.jpg" alt="" />
+          </div>
+          <div class="txt">
+            <h3>Europe</h3>
+            <p>A Partir de 175 €</p>
+          </div>
+        </div>
 
-    <!-- Version 2 de la page "À la une" -->
-    <div class="cards-container">
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/axp-photography-sFFxaegZuCQ-unsplash.jpg" alt="Château de Villandry (37510 Villandry, France) et ses jardins à la française. Le château de Villandry est un ensemble entremêlant intimement architecture et jardins, situé à 15 km à l'ouest de Tours, dans le département français d'Indre-et-Loire, en région Centre-Val de Loire." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">La France : un voyage entre culture, gastronomie et paysages variés</h2>
-              <p class="text">De la romantique Paris aux plages de la Côte d’Azur, en passant par les vignobles de Bordeaux et les châteaux de la Loire, la France offre une richesse incroyable pour tous les voyageurs. Que vous soyez amateur d’art, de gastronomie ou de nature, le pays regorge d’expériences authentiques. N’oubliez pas de prévoir quelques mots en français : un simple « Bonjour » ouvrira bien des portes !</p>
-            </div>
+        <div class="box">
+          <div class="img">
+            <img src="img/home/Asie.jpg" alt="" />
           </div>
-        </article>
-      </section>
+          <div class="txt">
+            <h3>Asie</h3>
+            <p>A Partir de 250 €</p>
+          </div>
+        </div>
 
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/manuel-cosentino-n--CMLApjfI-unsplash.jpg" alt="Pagode de Chureito : Célèbre pagode au sommet d'une colline, accessible par 398 marches et faisant face au mont Fuji dans le parc Arakurayama Sengen au Japon." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">Préparer son voyage au Japon : ce qu’il faut savoir avant de partir</h2>
-              <p class="text">Partir au Japon demande un peu d’organisation : pensez à réserver vos hébergements et votre Japan Rail Pass à l'avance pour voyager facilement en train à travers le pays. Respectez les coutumes locales, notamment en matière de politesse et de discrétion. Et surtout, laissez-vous surprendre par la diversité entre traditions ancestrales et modernité futuriste !</p>
-            </div>
+        <div class="box">
+          <div class="img">
+            <img src="img/home/Amérique.jpg" alt="" />
           </div>
-        </article>
-      </section>
-      
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/axp-photography-1_a3dYIlq8s-unsplash.jpg" alt="La place d'Espagne est une des places les plus spectaculaires de Séville (Espagne)." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">Les trésors cachés d’Espagne : au-delà de Barcelone et Madrid</h2>
-              <p class="text">L’Espagne ne se limite pas à ses grandes villes : découvrez les villages blancs d’Andalousie, les paysages sauvages des Asturies ou encore la gastronomie authentique du Pays basque. Chaque région a son identité propre et mérite que l'on prenne le temps de la découvrir. Et bien sûr, laissez-vous emporter par le rythme chaleureux de la vie espagnole !</p>
-            </div>
+          <div class="txt">
+            <h3>Amérique</h3>
+            <p>A Partir de 200 €</p>
           </div>
-        </article>
-      </section>
-      
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/axp-photography-GaJdR-s5bF0-unsplash.jpg" alt="Ayutthaya est une ville de Thaïlande, située à environ 80 kilomètres au nord de Bangkok. Fondée en 1350, elle fut la capitale du Royaume de Siam et un port de commerce international prospère, jusqu'à ce qu'elle fût rasée par les birmans en 1767. Les ruines de l'ancienne ville forment aujourd'hui le parc historique d'Ayutthaya, un site archéologique comprenant des palais, des temples bouddhistes, des monastères et des statues." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">Thaïlande : conseils pratiques pour un séjour réussi</h2>
-              <p class="text">Avant de partir en Thaïlande, pensez à vérifier la saison : la période de novembre à février est idéale pour profiter d'un climat sec et agréable. Respectez les traditions bouddhistes en portant des tenues couvrantes pour visiter les temples. Ne manquez pas non plus de goûter aux plats locaux dans les marchés de rue : un vrai régal pour les papilles !</p>
-            </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="img/home/Afrique.jpg" alt="" />
           </div>
-        </article>
-      </section>
-      
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/jaanus-jagomagi-lVSuklTfTZg-unsplash.jpg" alt="Chefchaouen, ou Chaouen, est une ville située dans les montagnes du Rif, au nord-ouest du Maroc. Elle est réputée pour les bâtiments remarquables de différents tons de bleu délavé de sa vieille ville. Des ateliers de maroquinerie et de tissage bordent ses allées pavées abruptes. Sur la place centrale ombragée d'Outa el Hammam se trouve la casbah aux murs rouges, forteresse et donjon du XVe siècle avec expositions ethnographiques et artistiques. Le minaret octogonal de la Grande Mosquée s'élève non loin de là." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">Maroc : entre médinas colorées et paysages désertiques</h2>
-              <p class="text">Le Maroc offre une immersion sensorielle unique : flânez dans les souks animés de Marrakech, découvrez les villages berbères de l’Atlas ou admirez les dunes dorées de Merzouga. Avant de partir, pensez à vous habituer à la négociation, une pratique courante dans les marchés. Un voyage riche en couleurs et en rencontres vous attend !</p>
-            </div>
+          <div class="txt">
+            <h3>Afrique</h3>
+            <p>A Partir de 225 €</p>
           </div>
-        </article>
-      </section>
-      
-      <section class="card">
-        <article class="article-container">
-          <img src="/img/a_la_une/imleedh-ali-fEB_hdEn274-unsplash.jpg" alt="Une vielle barque bleue turquoise et trouée posée sur une plage des Maldives à côté d'un Cocotier. On voit la mer bleue turquoise en arrière plan, et des cumulus dans le ciel." class="article-background-image">
-          <div class="article">
-            <div class="article-hover">
-              <h2 class="title">Explorer les îles Maldives : un paradis entre ciel et mer</h2>
-              <p class="text">Les Maldives sont synonymes de rêve éveillé : plages de sable blanc, lagons turquoise et fonds marins spectaculaires. Pour un séjour réussi, choisissez bien votre île selon votre budget et vos envies (plongée, spa, farniente). Et surtout, pensez à respecter la faune marine en utilisant des produits solaires écologiques.</p>
-            </div>
-          </div>
-        </article>
-      </section>
-    </div>
-  </main>
+        </div>
 
-  <footer>Réalisation RICATEAU Madeline 2025</footer>
-</body>
+        <div class="box">
+          <div class="img">
+            <img src="img/home/îles.jpg" alt="" />
+          </div>
+          <div class="txt">
+            <h3>Îles</h3>
+            <p>A Partir de 275 €</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/home/Inde.jpg" alt="">
+          </div>
+          <div class="txt">
+            <h3>Futures Destination</h3>
+            <p>Bientôt Disponible</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+  <footer>
+    <p>Réaliser par Tristan le 28/04/2025</p>
+  </footer>
+  </body>
 </html>
