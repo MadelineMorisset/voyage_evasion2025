@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorez notre sélection de destinations touristiques à travers le monde : inspirations de voyage, conseils pratiques et idées d'escapades inoubliables.">
+    <title>Site Tourisme - Univers du Voyage</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/importation.css">
+    <link rel="stylesheet" href="css/signin.css">
+  </head>
+
+  <body class="flex">
+    <header>
+        <a href="index.html">
+          <div class="logo">
+            <img src="./img/home/Logo V-E.png">
+          </div>
+        </a>
+        <input type="checkbox" id="burger-toggle" />
+        <label for="burger-toggle" class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li>Destinations
+              <ul>
+                <li>Europe
+                  <ul>
+                    <li>France</li>
+                    <li>Espagne</li>
+                    <li>Italie</li>
+                  </ul>
+                </li>
+                <li>Asie
+                  <ul>
+                    <li>Japon</li>
+                    <li>Thaïlande</li>
+                    <li>Vietnam</li>
+                  </ul>
+                </li>
+                <li>Amériques
+                  <ul>
+                    <li>États-Unis</li>
+                    <li>Brésil</li>
+                    <li>Argentine</li>
+                  </ul>
+                </li>
+                <li>Afrique
+                  <ul>
+                    <li>Maroc</li>
+                    <li>Afrique du Sud</li>
+                    <li>Égypte</li>
+                  </ul>
+                </li>
+                <li>Îles
+                  <ul>
+                    <li>Tahiti</li>
+                    <li>Maldives</li>
+                    <li>Réunion</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="spotlight.html">À la une</a></li>
+            <li>Contact</li>
+            <li>Qui sommes-nous ?</li>
+            <li><a href="signin.html">Connexion</a></li>
+            <li>Inscription</li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="flex">
+        <div class="title flex">
+            <h1>Bon retour !!</h1>
+            <span>Ravi de vous retrouvez parmi nous </span>
+            <div class="Mouettes">
+              <img src="./img/signin/mouette.gif" alt="">
+              <img src="./img/signin/mouette.gif" alt="">
+            </div>
+            <div class="Yacht">
+              <!-- <img src="./img/signin/mouette.gif" alt=""> -->
+              <img src="./img/signin/yacht.png" alt="">
+            </div>
+        </div>
+
+        <div class="allForm flex">
+          <div class="titleForm flex">
+            <h2>Connectez-vous</h2>
+          </div>
+          <form action="" method="get" class="flex">
+              <div class="MyCheckboxs flex">
+                <div >
+                  <label for="particular">Particulier: </label>
+                  <input type="checkbox" name="particular" id="particular" />
+                </div>
+                <div >
+                  <label for="company">Entreprise: </label>
+                  <input type="checkbox" name="company" id="company"  />
+                </div>
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required class="form2" placeholder="obligatoire !!" />
+              </div>
+              <div>
+                <label for="message">Mot de passe:</label>
+                <input type="password" required class="form2" placeholder="obligatoire !!">
+              </div>
+              <div>
+                <label for="message">Confirmer mot de passe:</label>
+                <input type="password" required class="form2" placeholder="obligatoire !!">
+              </div>
+              <div>
+                <span> Mot de passe oublié ?</span><a href="#"> Cliquez ici !</a>
+              </div>
+              <div class="button">
+                <input type="submit" value="Se connecter" />
+              </div>
+            </form>
+        </div>
+      </main>
+
+      <footer>
+        <p>© Réalisé par BADJI DIEME Cherif</p>
+      </footer>
+</body>
+</html>
