@@ -8,7 +8,7 @@
 - **<ins>Documents fournis</ins> :**
   - *Menu deroulant pivotant flap flop.html* => renommé en nom_page.html
   - *importation.css* => premier fichier css
-  - *importation2.css* => second fichier css à combiner avec le premier
+  - *importation2.css* => second fichier css qui peut être combiné avec le premier
 
 
 > [!NOTE]
@@ -26,8 +26,8 @@
   - Franck Rossignol : Destinations
   - Madeline Ricateau : À la une
   - Moufid Rhazi : Contact
-  - MAgali Bernardin Bichet : Qui sommes-nous ?
-  - Chérif Badji Dieme: Connexion
+  - Magali Bernardin Bichet : Qui sommes-nous ?
+  - Shérif Badji Dieme: Connexion
   - Alexandre Anselin : Inscription
 ```
 
