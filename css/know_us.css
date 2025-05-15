@@ -133,7 +133,7 @@ main{
     background-color:rgba(164, 213, 244, 0.75);
 }
 .bandeau2:hover{
-    background-image: url("images/plage2.jpg");
+    background-image: url("../img/know_us/plage2.jpg");
     .divPara{
         .paraInterne{
             opacity: 0;

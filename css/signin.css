@@ -14,7 +14,7 @@ body{
 .main {
     top: 90px;
     position: relative;
-    justify-self: center;
+    margin: auto;
 }
 
 .menu ul li a{
