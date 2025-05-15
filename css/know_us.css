@@ -20,7 +20,7 @@ main{
 .image{
     width:100%;
     height: 600px;
-    background-image: url("images/ile2.jpg");
+    background-image: url("../img/know_us/ile2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 10rem;
@@ -106,7 +106,7 @@ main{
     object-fit: cover;
 }
 .image2{
-    background-image: url("images/plage.jpg");
+    background-image: url("../img/know_us/plage.jpg");
     border-radius: 20%;
     width: 50rem;
     height: 50rem;
